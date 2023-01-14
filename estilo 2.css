@@ -1,0 +1,102 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: arial;
+}
+
+label,input{
+    display: block;
+    line-height: 30px;
+    height: 30px;
+    font-size: 13pt;
+    width: 100%;
+    border-radius: 10px;
+    outline: none;
+}
+
+form{
+    width: 330px;
+    background-color: rgba(0,0,0,.2);
+    padding: 20px;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: black 10px 10px 10px;
+}
+
+input[type="submit"]{
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    width: 100px;
+    height: 50px;
+}
+input:hover{
+   cursor: pointer;
+   background-color: pink;
+}
+#esquerda{
+    width: 35%;
+    height: 500px;
+    float: left;
+
+}
+
+h2{
+    text-align: center;
+    text-shadow: black 10px 10px 10px;
+}
+
+#direita{
+    width: 65%;
+    height: 500px;
+    float: right;
+}
+
+table{
+    background-color: rgba(0,0,0,.2);
+    width: 90%;
+    margin: 30px auto;
+}
+
+tr{
+    line-height: 30px;
+}
+
+tr#titulo{
+    font-weight: bold;
+    background-color: rgba(0,0,0,.6);
+    color: white;
+}
+
+td{
+    padding: 0px 5px;
+}
+
+a{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    margin: 0px 5px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.aviso{
+    width: 90%;
+    height: 50px;
+    margin: 30px auto 0px auto;
+}
+img{
+    display: block;
+    width: 50px;
+    float: left;
+}
+h4{
+    float: left;
+    line-height: 50px;
+}
+
+body{
+    background-image:url(wallpaper.jpg);
+    }
